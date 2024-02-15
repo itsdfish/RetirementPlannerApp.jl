@@ -1,0 +1,59 @@
+┌ Info: 2024-02-11 06:26:54 Watching ["/home/dfish/.julia/dev/RetirementPlannerApp/app"]
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-02-11 06:26:56 
+│ Web Server starting at http://127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:26:57 Listening on: 127.0.0.1:8001, thread id: 2
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Info: 2024-02-11 06:30:06 Server on 127.0.0.1:8001 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
+┌ Warning: 2024-02-11 06:30:11 GenieTools already loaded, skipping
+└ @ Main.App /home/dfish/.julia/packages/GenieFramework/zOp41/src/GenieFramework.jl:119
+┌ Info: 2024-02-11 06:30:19 
+│ Web Sockets server starting at 127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:30:19 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:30:19 Listening on: 127.0.0.1:8001, thread id: 1
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Warning: 2024-02-11 06:30:26 GenieTools already loaded, skipping
+└ @ Main.App /home/dfish/.julia/packages/GenieFramework/zOp41/src/GenieFramework.jl:119
+┌ Info: 2024-02-11 06:30:32 
+│ Web Sockets server starting at 127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:30:32 
+│ Web Server starting at http://127.0.0.1:8010 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:30:32 Listening on: 127.0.0.1:8010, thread id: 3
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Info: 2024-02-11 06:31:21 Server on 127.0.0.1:8010 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
+┌ Info: 2024-02-11 06:31:21 Server on 127.0.0.1:8001 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
+┌ Info: 2024-02-11 06:33:20 Watching ["/home/dfish/.julia/dev/RetirementPlannerApp/app"]
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-02-11 06:33:22 
+│ Web Server starting at http://127.0.0.1:8010 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:33:23 Listening on: 127.0.0.1:8010, thread id: 3
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Info: 2024-02-11 06:35:25 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-11 06:35:33 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-11 06:35:48 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-11 06:35:53 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-11 06:36:00 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-11 06:36:06 Server on 127.0.0.1:8010 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
+┌ Info: 2024-02-11 06:42:23 Watching ["/home/dfish/.julia/dev/RetirementPlannerApp/app"]
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-02-11 06:42:26 
+│ Web Server starting at http://127.0.0.1:8010 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-11 06:42:26 Listening on: 127.0.0.1:8010, thread id: 4
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367

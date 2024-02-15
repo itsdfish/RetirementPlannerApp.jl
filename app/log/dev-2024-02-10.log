@@ -1,0 +1,311 @@
+┌ Info: 2024-02-10 19:14:53 Watching ["/home/dfish/.julia/dev/RetirementPlannerApp/app"]
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-02-10 19:14:56 
+│ Web Server starting at http://127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-10 19:14:57 Listening on: 127.0.0.1:8001, thread id: 3
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Warning: 2024-02-10 19:19:12 ArgumentError("Invalid field syntax")
+└ @ Stipple /home/dfish/.julia/packages/Stipple/y12oN/src/Stipple.jl:992
+┌ Warning: 2024-02-10 19:22:19 ArgumentError("Invalid field syntax")
+└ @ Stipple /home/dfish/.julia/packages/Stipple/y12oN/src/Stipple.jl:992
+┌ Info: 2024-02-10 19:39:09 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Error: 2024-02-10 19:39:10 DimensionMismatch: number of columns of each array must match (got (2, 1, 1, 1, 1))
+│ Stacktrace:
+│   [1] _typed_vcat(::Type{AbstractString}, A::NTuple{5, Matrix{AbstractString}})
+│     @ Base ./abstractarray.jl:1699
+│   [2] typed_vcat(::Type{AbstractString}, ::Matrix{AbstractString}, ::Matrix{AbstractString}, ::Matrix{AbstractString}, ::Vararg{Matrix{AbstractString}})
+│     @ Base ./abstractarray.jl:1713
+│   [3] typed_hvcat(::Type{AbstractString}, ::NTuple{5, Int64}, ::String, ::Vararg{Any})
+│     @ Base ./abstractarray.jl:2175
+│   [4] hvcat
+│     @ ./abstractarray.jl:2152 [inlined]
+│   [5] func_2e6e7fcc87754491a0903780c83db4e5de55751f(; context::Module, model::Main.App.var"##Main.App_ReactiveModel!#226")
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2e6e7fcc87754491a0903780c83db4e5de55751f.jl:5
+│   [6] func_2e6e7fcc87754491a0903780c83db4e5de55751f()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2e6e7fcc87754491a0903780c83db4e5de55751f.jl:3
+│   [7] (::Main.App.var"#103#116"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:55
+│   [8] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│   [9] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [10] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [11] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [12] div
+│     @ Genie.Renderer.Html ./none:1 [inlined]
+│  [13] (::Main.App.var"#102#115"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:54
+│  [14] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [15] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [16] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [17] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [18] div
+│     @ Genie.Renderer.Html ./none:1 [inlined]
+│  [19] (::Main.App.var"#101#114"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:53
+│  [20] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [21] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [22] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [23] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [24] div
+│     @ ./none:1 [inlined]
+│  [25] (::Main.App.var"#100#113"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:52
+│  [26] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [27] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [28] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [29] #body#83
+│     @ ./none:2 [inlined]
+│  [30] body
+│     @ ./none:1 [inlined]
+│  [31] (::Main.App.var"#96#109"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:9
+│  [32] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [33] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [34] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [35] #html#71
+│     @ ./none:2 [inlined]
+│  [36] html
+│     @ ./none:1 [inlined]
+│  [37] func_4ecdd1fd71cd6dfc507cc4b9a81d5037e959115e(; context::Module, model::Main.App.var"##Main.App_ReactiveModel!#226")
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:5
+│  [38] func_4ecdd1fd71cd6dfc507cc4b9a81d5037e959115e()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:3
+│  [39] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [40] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [41] WebRenderable(::Function)
+│     @ Genie.Renderer ~/.julia/packages/Genie/KiJgQ/src/Renderer.jl:163
+│  [42] |>
+│     @ ./operators.jl:917 [inlined]
+│  [43] render(::Type{MIME{Symbol("text/html")}}, viewfile::FilePathsBase.PosixPath; layout::String, context::Module, vars::@Kwargs{model::Main.App.var"##Main.App_ReactiveModel!#226"})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:486
+│  [44] render
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:482 [inlined]
+│  [45] #html#37
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:642 [inlined]
+│  [46] (::Stipple.Pages.var"#5#6"{FilePathsBase.PosixPath, Stipple.ReactiveTools.var"#32#34"{Module, Vector{Any}}, String, @Kwargs{}})()
+│     @ Stipple.Pages ~/.julia/packages/Stipple/y12oN/src/Pages.jl:68
+│  [47] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/KiJgQ/src/Router.jl:548
+│  [48] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Router ~/.julia/packages/Genie/KiJgQ/src/Router.jl:173
+│  [49] route_request
+│     @ ~/.julia/packages/Genie/KiJgQ/src/Router.jl:147 [inlined]
+│  [50] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:283
+│  [51] handle_request
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:275 [inlined]
+│  [52] (::Genie.Server.var"#35#36"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/macros.jl:123
+│  [53] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [54] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [55] #153
+│     @ ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:425 [inlined]
+│  [56] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#35#36"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, @Kwargs{}}, print_error::Bool)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:70
+│  [57] #remotecall_fetch#158
+│     @ ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:450 [inlined]
+│  [58] remotecall_fetch(::Function, ::Distributed.Worker)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:449 [inlined]
+│  [59] remotecall_fetch(::Function, ::Distributed.Worker)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492 [inlined]
+│  [60] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:327
+│  [61] setup_http_listener (repeats 2 times)
+│     @ ~/.julia/packages/Genie/KiJgQ/src/Server.jl:325 [inlined]
+│  [62] (::Genie.Server.var"#32#33"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:296
+│  [63] setup_http_streamer(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:316
+│  [64] (::Genie.Server.var"#7#15")(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:123
+│  [65] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [66] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [67] handle_connection(f::Function, c::HTTP.Connections.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/bDoga/src/Servers.jl:450
+│ 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:339
+┌ Info: 2024-02-10 19:40:18 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Error: 2024-02-10 19:40:25 DimensionMismatch: number of columns of each array must match (got (2, 1, 1, 1, 1))
+│ Stacktrace:
+│   [1] _typed_vcat(::Type{AbstractString}, A::NTuple{5, Matrix{AbstractString}})
+│     @ Base ./abstractarray.jl:1699
+│   [2] typed_vcat(::Type{AbstractString}, ::Matrix{AbstractString}, ::Matrix{AbstractString}, ::Matrix{AbstractString}, ::Vararg{Matrix{AbstractString}})
+│     @ Base ./abstractarray.jl:1713
+│   [3] typed_hvcat(::Type{AbstractString}, ::NTuple{5, Int64}, ::String, ::Vararg{Any})
+│     @ Base ./abstractarray.jl:2175
+│   [4] hvcat
+│     @ ./abstractarray.jl:2152 [inlined]
+│   [5] func_2e6e7fcc87754491a0903780c83db4e5de55751f(; context::Module, model::Main.App.var"##Main.App_ReactiveModel!#226")
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2e6e7fcc87754491a0903780c83db4e5de55751f.jl:5
+│   [6] func_2e6e7fcc87754491a0903780c83db4e5de55751f()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2e6e7fcc87754491a0903780c83db4e5de55751f.jl:3
+│   [7] (::Main.App.var"#103#116"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:55
+│   [8] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│   [9] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [10] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [11] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [12] div
+│     @ Genie.Renderer.Html ./none:1 [inlined]
+│  [13] (::Main.App.var"#102#115"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:54
+│  [14] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [15] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [16] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [17] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [18] div
+│     @ Genie.Renderer.Html ./none:1 [inlined]
+│  [19] (::Main.App.var"#101#114"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:53
+│  [20] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [21] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [22] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [23] div(::Function; attrs::@Kwargs{class::String, htmlsourceindent::String})
+│     @ Genie.Renderer.Html ./none:2
+│  [24] div
+│     @ ./none:1 [inlined]
+│  [25] (::Main.App.var"#100#113"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:52
+│  [26] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [27] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [28] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [29] #body#83
+│     @ ./none:2 [inlined]
+│  [30] body
+│     @ ./none:1 [inlined]
+│  [31] (::Main.App.var"#96#109"{Main.App.var"##Main.App_ReactiveModel!#226"})()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:9
+│  [32] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [33] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [34] normal_element(f::Function, elem::String, args::Vector{Any}, attrs::Vector{Pair{Symbol, Any}})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:137
+│  [35] #html#71
+│     @ ./none:2 [inlined]
+│  [36] html
+│     @ ./none:1 [inlined]
+│  [37] func_4ecdd1fd71cd6dfc507cc4b9a81d5037e959115e(; context::Module, model::Main.App.var"##Main.App_ReactiveModel!#226")
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:5
+│  [38] func_4ecdd1fd71cd6dfc507cc4b9a81d5037e959115e()
+│     @ Main.App /tmp/jl_genie_build_c8waxf/GenieViews/2cac3ca9634df41ec2fc49fadeef6b5fc818ba5c.jl:3
+│  [39] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [40] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [41] WebRenderable(::Function)
+│     @ Genie.Renderer ~/.julia/packages/Genie/KiJgQ/src/Renderer.jl:163
+│  [42] |>
+│     @ ./operators.jl:917 [inlined]
+│  [43] render(::Type{MIME{Symbol("text/html")}}, viewfile::FilePathsBase.PosixPath; layout::String, context::Module, vars::@Kwargs{model::Main.App.var"##Main.App_ReactiveModel!#226"})
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:486
+│  [44] render
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:482 [inlined]
+│  [45] #html#37
+│     @ Genie.Renderer.Html ~/.julia/packages/Genie/KiJgQ/src/renderers/Html.jl:642 [inlined]
+│  [46] (::Stipple.Pages.var"#5#6"{FilePathsBase.PosixPath, Stipple.ReactiveTools.var"#32#34"{Module, Vector{Any}}, String, @Kwargs{}})()
+│     @ Stipple.Pages ~/.julia/packages/Stipple/y12oN/src/Pages.jl:68
+│  [47] run_route(r::Genie.Router.Route)
+│     @ Genie.Router ~/.julia/packages/Genie/KiJgQ/src/Router.jl:548
+│  [48] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Router ~/.julia/packages/Genie/KiJgQ/src/Router.jl:173
+│  [49] route_request
+│     @ ~/.julia/packages/Genie/KiJgQ/src/Router.jl:147 [inlined]
+│  [50] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:283
+│  [51] handle_request
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:275 [inlined]
+│  [52] (::Genie.Server.var"#35#36"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/macros.jl:123
+│  [53] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [54] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [55] #153
+│     @ ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:425 [inlined]
+│  [56] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#35#36"{HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}}, HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, @Kwargs{}}, print_error::Bool)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:70
+│  [57] #remotecall_fetch#158
+│     @ ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:450 [inlined]
+│  [58] remotecall_fetch(::Function, ::Distributed.Worker)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:449 [inlined]
+│  [59] remotecall_fetch(::Function, ::Distributed.Worker)
+│     @ Distributed ~/julia-1.10.0/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492 [inlined]
+│  [60] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response; stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:327
+│  [61] setup_http_listener (repeats 2 times)
+│     @ ~/.julia/packages/Genie/KiJgQ/src/Server.jl:325 [inlined]
+│  [62] (::Genie.Server.var"#32#33"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:296
+│  [63] setup_http_streamer(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:316
+│  [64] (::Genie.Server.var"#7#15")(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.Connections.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server ~/.julia/packages/Genie/KiJgQ/src/Server.jl:123
+│  [65] #invokelatest#2
+│     @ ./essentials.jl:887 [inlined]
+│  [66] invokelatest
+│     @ ./essentials.jl:884 [inlined]
+│  [67] handle_connection(f::Function, c::HTTP.Connections.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers ~/.julia/packages/HTTP/bDoga/src/Servers.jl:450
+│ 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:339
+┌ Info: 2024-02-10 19:40:36 Autoreloading
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:22
+┌ Info: 2024-02-10 19:43:39 Watching ["/home/dfish/.julia/dev/RetirementPlannerApp/app"]
+└ @ GenieAutoReload /home/dfish/.julia/packages/GenieAutoReload/ESvsh/src/GenieAutoReload.jl:19
+┌ Info: 2024-02-10 19:43:42 
+│ Web Server starting at http://127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-10 19:43:43 Listening on: 127.0.0.1:8001, thread id: 2
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Info: 2024-02-10 19:45:04 Server on 127.0.0.1:8001 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
+┌ Warning: 2024-02-10 19:48:17 GenieTools already loaded, skipping
+└ @ Main.App /home/dfish/.julia/packages/GenieFramework/zOp41/src/GenieFramework.jl:119
+┌ Info: 2024-02-10 19:48:26 
+│ Web Server starting at http://127.0.0.1:8001 
+└ @ Genie.Server /home/dfish/.julia/packages/Genie/KiJgQ/src/Server.jl:166
+┌ Info: 2024-02-10 19:48:26 Listening on: 127.0.0.1:8001, thread id: 4
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:367
+┌ Info: 2024-02-10 20:15:31 Server on 127.0.0.1:8001 closing
+└ @ HTTP.Servers /home/dfish/.julia/packages/HTTP/bDoga/src/Servers.jl:394
